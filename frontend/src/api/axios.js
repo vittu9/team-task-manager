@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const baseURL = import.meta.env.VITE_API_URL || "https://team-task-manager-production-cd9e.up.railway.app/api";
 
 console.log('🔗 API Base URL:', baseURL);
 
