@@ -15,10 +15,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://team-task-manager-eight-xi.vercel.app",
-    ],
+    origin: true,
     credentials: true,
   })
 );
